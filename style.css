@@ -1,0 +1,134 @@
+/* General body styling */
+body {
+    background: radial-gradient(circle, #0f2027, #203a43, #2c5364);
+    font-family: 'Segoe UI', sans-serif;
+    color: #eaeaea;
+    margin: 0;
+    padding: 0;
+}
+
+/* Centered container with padding */
+.container {
+    background: #1e2a38;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    padding: 40px;
+    margin: 50px auto;
+    max-width: 600px;
+}
+
+/* Heading styling */
+h1 {
+    font-size: 2.8rem;
+    font-weight: bold;
+    text-align: center;
+    color: #00d4ff;
+    margin-bottom: 30px;
+    text-shadow: 0 0 15px rgba(0, 212, 255, 0.5);
+}
+
+/* Form labels */
+label {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #e0e0e0;
+}
+
+/* Input fields */
+input[type="number"] {
+    background: #2c3e50;
+    border: 1px solid #34495e;
+    border-radius: 8px;
+    padding: 12px;
+    color: #eaeaea;
+    font-size: 1rem;
+    width: 100%;
+    outline: none;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input[type="number"]:focus {
+    border-color: #00d4ff;
+    box-shadow: 0 0 8px rgba(0, 212, 255, 0.8);
+}
+
+/* Radio buttons */
+.form-check-label {
+    color: #eaeaea;
+    font-size: 1.1rem;
+}
+
+.form-check-input:checked {
+    background-color: #00d4ff;
+    border-color: #00d4ff;
+}
+
+/* Buttons */
+button {
+    font-size: 1rem;
+    padding: 12px 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+.btn-primary {
+    background: linear-gradient(45deg, #00d4ff, #0073ff);
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(45deg, #0073ff, #00d4ff);
+}
+
+.btn-secondary {
+    background: #34495e;
+    color: #eaeaea;
+}
+
+.btn-secondary:hover {
+    background: #3d566e;
+}
+
+/* Result box */
+.result-box {
+    margin-top: 20px;
+    background: #1b2735;
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid #2a3f55;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+}
+
+.result-box h4 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #00d4ff;
+    margin-bottom: 10px;
+    text-shadow: 0 0 8px rgba(0, 212, 255, 0.7);
+}
+
+.result-box p {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #eaeaea;
+}
+
+span {
+    font-weight: bold;
+    color: #00d4ff;
+    text-shadow: 0 0 5px rgba(0, 212, 255, 0.7);
+}
+
+/* Add hover glow to result box */
+.result-box:hover {
+    box-shadow: 0 10px 30px rgba(0, 212, 255, 0.5);
+}
+
